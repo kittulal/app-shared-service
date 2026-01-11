@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    margin: 20px;
+    background-color: #fafafa; /* Light background for better contrast */
+}
+.input-decorator{
+    min-width: 650px;
+    border: 1px solid #d1d1e0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-bottom: 30px;
+    background-color: #f0f0f5; /* Light background for contrast */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Subtle shadow for depth */
+}
+button{
+    min-width: 100px;
+    padding: 10px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    border-radius: 12px;;
+    border: 1px solid cornflowerblue;
+}
+
+button:hover {
+    color: white;
+    background-color: cornflowerblue; /* Slightly darker on hover */
+    cursor: pointer;
+}
